@@ -151,11 +151,11 @@ body {
     body {
         height: 1480px;
         width: 537px;
-        background: linear-gradient(0.5turn, #080808, #65877d);
+        background: linear-gradient(0.5turn, #3cff3c, #eeffaf);
     }
 
     .navbar {
-        height: 150px;
+        height: 200px;
         width: 215%;
     }
 
@@ -182,12 +182,12 @@ body {
 
     .tt {
         border-radius: 40px;
-        height: 337px;
-        font-size: xx-large;
-        background: linear-gradient(0.5turn, #232d2a, #3e4d3e);
-        font-size: x-large;
-        margin: 28px -20px;
-        text-align: left;
+    height: 337px;
+    font-size: xx-large;
+    background: linear-gradient(0.5turn, #5cffce, #8b65ff);
+    font-size: x-large;
+    margin: 28px -20px;
+    text-align: left;
     }
 
     .tt pre {
@@ -215,7 +215,7 @@ body {
     width: 208%;
     /* background: #959595; */
     min-block-size: max-content;
-    background: linear-gradient(0.5turn, #232d2a, #3e4d3e);
+    background: linear-gradient(0.5turn, #ffd331, #b9c2f3);
     margin-left: 5%;
     margin-right: 15%;
 }
@@ -229,7 +229,7 @@ body {
     grid-template-columns: auto auto auto;
     gap: 10px;
     /* background-color: #2f2f2f; */
-    background: linear-gradient(0.5turn, #232d2a, #3e4d3e);
+    background: linear-gradient(0.5turn, #b6ffe9, #f3be8f);
     padding: 10px;
     justify-content: center;
     align-content: center;
@@ -256,9 +256,11 @@ body {
     display: flex;
     flex-direction: row;
     align-items: stretch;
+    background: linear-gradient(0.5turn , #4aefbe,#3e4d3e);
 }
 
 .project img {
+    border-radius: 92px 20px;
     margin: 12px 13px;
     width: 414px;
     max-width: max-content;
